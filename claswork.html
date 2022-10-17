@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classwork</title>
+    <link rel="stylesheet" a href="css/bootstrap.css">
+<body>
+    <div class="modal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Signup for more news.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--Navigation bar-->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SUPER PETS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              Get 20% off family safari rides 
+            </span>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/fox.jpg" height="1080" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/tiger.jpg" height="1080" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/kingfisher.jpg" height="1080" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <div class="row">
+    <div class="col-6 p-5 border border-success">
+        <h1>Register</h1>
+        <br>
+        <form action="" class="was-validated">
+
+            <div class="mb-3">
+                <label class="form-label" for="firstname">First Name</label>
+                <input class="form-control form-control-sm" type="text" placeholder="enter your first name" id="name1">
+                <br>
+           
+            <div class="mb-3">
+                <label class="form-label" for="lastname">Last Name</label>
+                <input class="form-control form-control-sm" type="email" placeholder="enter your last name" id="name2">
+            </div>
+
+            <div class="mb-5">
+                <label class="form-label" for="email">Email</label>
+                <input class="form-control form-control-sm" type="email" required placeholder="enter your email here"
+                  id="email">
+                <div class="invalid-feedback">Please enter email</div>
+                <div class="valid-feedback">Great job!!!</div>
+            </div>
+      
+            <div class="mb-5">
+                <label class="form-label" for="password">Password</label>
+                <input class="form-control form-control-sm" type="password" required placeholder="enter your password here"
+                  id="password">
+                <div class="invalid-feedback">Please enter password</div>
+                <div class="valid-feedback">Great job!!!</div>
+            </div>
+                  <br>
+                  <br>
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                  </div>
+                  <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                  </div>
+                  <br>
+                  <div>
+                    <button class="btn btn-outline-success">Submit</button>
+                  </div>
+        </form>
+    </div>
+    </div>
+      
+        <!--2nd column-->
+        <div class="col-6">
+          <!--Login-->
+          <div style="text-align">
+            <br>
+            <br>
+            <h1>Login</h1>
+          </div>
+          
+          <form action="" class="was-validated">
+            <br>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control form-control-sm" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+              <br>
+              <div>
+                <button class="btn btn-outline-success">Submit</button>
+              </div>
+    </form>
+    </div>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
